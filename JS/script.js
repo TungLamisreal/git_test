@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    let filePath = '../IMG/fruit.json';
+    let filePath = 'IMG/fruit.json';
     fetch(filePath)
         .then(rs => rs.json())
         .then(data => {
