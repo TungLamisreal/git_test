@@ -51,10 +51,10 @@ function choose(e) {
             let item_HTML = 
             ` <div class="nav d-flex justify-content-between">
                     <div class="d-flex align-items-center">
-                        <img style="width: 40px; height: 40px;" src="../IMG/arrow.png" alt="">
+                        <img style="width: 40px; height: 40px;" src="IMG/arrow.png" alt="">
                         <h4>${item.name}</h4>                        
                     </div>
-                    <img style="" class="icon" src="../IMG/3dot.png" alt="">
+                    <img style="" class="icon" src="IMG/3dot.png" alt="">
                 </div>
                 <img id="test" class="img1" src="${item.img1}" alt="">
                 <img class="img2" src="${item.img2}" alt="">
